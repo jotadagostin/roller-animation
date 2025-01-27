@@ -33,6 +33,7 @@ footer {
       position: relative;
 
       &:hover::after {
+        opacity: 1;
         transform: scaleX(1);
       }
     }

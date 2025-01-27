@@ -206,3 +206,10 @@ section.hero {
     transform: translateY(-15rem);
   }
 }
+
+@media screen and (max-width: 376px) {
+  section.hero {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
