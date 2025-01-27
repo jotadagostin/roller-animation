@@ -318,13 +318,17 @@ section.hero {
 
       &.play {
         display: flex;
+        flex-direction: row-reverse;
+        border: 1px solid var(--snitap-sun);
+        box-shadow: 1px 1px 5px gray;
+        padding: 20px;
       }
 
       &.play span {
         padding: 1.5rem;
         border-radius: 50%;
         background-color: white;
-        display: flex;
+        display: none;
       }
 
       &:hover {

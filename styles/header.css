@@ -49,6 +49,14 @@ header.top {
     height: 4.5rem;
   }
 
+  img[src*="logo"]:hover {
+    transform: rotate(-50deg);
+  }
+
+  img[src*="shopping"]:hover {
+    transform: rotate(-30deg);
+  }
+
   a {
     position: relative;
   }
