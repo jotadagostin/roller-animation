@@ -88,3 +88,28 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 376px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+
+    & .logo {
+      width: 100%;
+    }
+
+    & nav {
+      display: flex;
+      flex-direction: column;
+      margin-top: 48px;
+      width: 100%;
+    }
+
+    & .social-links {
+      width: 100%;
+      margin-top: 48px;
+    }
+  }
+}
